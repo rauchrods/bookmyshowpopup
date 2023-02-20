@@ -1,0 +1,102 @@
+.popcontainer{
+    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top:0;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.popup{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: auto;
+    align-items: center;
+    row-gap: 30px;
+}
+/* .popup>div{
+    border: 1px solid black;
+} */
+body{
+    margin: 0;
+}
+.searchblock{
+    width:100%;
+    position: relative;
+}
+.searchblock>input{
+   width: 100%;
+   padding: 15px 15px 15px 50px ;
+   border-radius: 5px;
+   border: 1px solid  lightgray;
+   
+}
+.searchblock>svg{
+    position: absolute;
+    top: 16px;
+    left:20px;
+ }
+ .cities{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+ }
+
+ .citylist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 20px;
+ }
+ .citylist>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .citylist .material-icons{
+     font-size: 80px !important;
+ }
+ .othercities{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   align-items: center;
+    row-gap: 10px;
+    width: 100%;
+ }
+.othercitylist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+ }
+ .othercitylist>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 8px;
+   color: gray;
+   font-size: 14px;
+ }
+ .othercitylist>div>span:hover{
+   color: black;
+   cursor: pointer;
+ }
+ .popup>div:nth-child(4){
+   color: red;
+   cursor: pointer;
+ }
